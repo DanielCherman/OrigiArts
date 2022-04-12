@@ -1057,7 +1057,10 @@ p, a {
 
 .more-button,
 .more-button1,
-.more-button2 {
+.more-button2,
+.more-button-ukr,
+.more-button1-ukr,
+.more-button2-ukr {
     border: 1px solid #fff;
     padding-left: 35px;
     padding-right: 35px;
@@ -1075,7 +1078,10 @@ p, a {
 
 .more-button::after,
 .more-button1::after,
-.more-button2::after {
+.more-button2::after,
+.more-button-ukr::after,
+.more-button1-ukr::after,
+.more-button2-ukr::after {
     content: '';
     display: block;
     background-color: #fff;
@@ -1090,7 +1096,10 @@ p, a {
 
 .more-button p,
 .more-button1 p,
-.more-button2 p {
+.more-button2 p,
+.more-button-ukr p,
+.more-button1-ukr p,
+.more-button2-ukr p {
     position: relative;
     font-size: 16px !important;
     font-weight: normal !important;
@@ -1101,13 +1110,19 @@ p, a {
 
 .more-button:hover p,
 .more-button1:hover p,
-.more-button2:hover p{
+.more-button2:hover p,
+.more-button-ukr:hover p,
+.more-button1-ukr:hover p,
+.more-button2-ukr:hover p {
     color: #0e0e0e;
 }
 
 .more-button:hover::after,
 .more-button1:hover::after,
-.more-button2:hover::after {
+.more-button2:hover::after,
+.more-button-ukr:hover::after,
+.more-button1-ukr:hover::after,
+.more-button2-ukr:hover::after {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 

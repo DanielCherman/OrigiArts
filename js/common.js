@@ -391,6 +391,62 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  newsContentUkr= $('.text2-ukr')
+  newsTextUkr = newsContentUkr.text();
+  newsContentUkr.text(newsTextUkr.slice(0, 200) + ' ...');
+
+  $(".more-button2-ukr").click(function() {
+    var elemUkr = $(".toggle2-ukr").text();
+    if (elemUkr == "Читати Більше") {
+
+      newsContentUkr.text(newsTextUkr.slice(0));
+      $(".toggle2-ukr").text("Згорнути");
+    } else {
+
+      newsContentUkr.text(newsTextUkr.slice(0, 200) + ' ...');
+      $(".toggle2-ukr").text("Читати Більше");
+    }
+  });
+});
+
+$(document).ready(function() {
+  newsContentUkr1= $('.text1-ukr')
+  newsTextUkr1 = newsContentUkr1.text();
+  newsContentUkr1.text(newsTextUkr1.slice(0, 200) + ' ...');
+
+  $(".more-button1-ukr").click(function() {
+    var elemUkr1 = $(".toggle1-ukr").text();
+    if (elemUkr1 == "Читати Більше") {
+
+      newsContentUkr1.text(newsTextUkr1.slice(0));
+      $(".toggle1-ukr").text("Згорнути");
+    } else {
+
+      newsContentUkr1.text(newsTextUkr1.slice(0, 200) + ' ...');
+      $(".toggle1-ukr").text("Читати Більше");
+    }
+  });
+});
+
+$(document).ready(function() {
+  newsContentUkr3= $('.text-ukr')
+  newsTextUkr3 = newsContentUkr3.text();
+  newsContentUkr3.text(newsTextUkr3.slice(0, 200) + ' ...');
+
+  $(".more-button-ukr").click(function() {
+    var elemUkr3 = $(".toggle-ukr").text();
+    if (elemUkr3 == "Читати Більше") {
+
+      newsContentUkr3.text(newsTextUkr3.slice(0));
+      $(".toggle-ukr").text("Згорнути");
+    } else {
+
+      newsContentUkr3.text(newsTextUkr3.slice(0, 200) + ' ...');
+      $(".toggle-ukr").text("Читати Більше");
+    }
+  });
+});
 
 /*skroll-out*/
 

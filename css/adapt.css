@@ -390,16 +390,24 @@
         margin-bottom: 50px;
     }
 
-    .sufered-container .text {
+    .sufered-container .text,
+    .sufered-container .text1,
+    .sufered-container .text2,
+    .sufered-container .text-ukr,
+    .sufered-container .text1-ukr,
+    .sufered-container .text2-ukr {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    .more-button, .more-button1, .more-button2 {
+    .more-button, .more-button1, .more-button2,
+    .more-button-ukr,
+    .more-button1-ukr,
+    .more-button2-ukr {
         margin-bottom: 50px;
     }
 
-    .toggle, .toggle1, .toggle2 {
+    .toggle, .toggle1, .toggle2, .toggle-ukr, .toggle1-ukr, .toggle2-ukr {
         margin: 0 !important;
     }
 
