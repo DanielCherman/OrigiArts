@@ -409,3 +409,4 @@ $('.read-more-stories-button').on('click', function() {
   $('.stories-blocks').toggleClass('story-opened')
   $('.stories-container h3').toggleClass('story-opened-h3')
 })
+
