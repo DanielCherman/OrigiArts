@@ -1403,7 +1403,7 @@ p, a {
 .overflow {
     position: fixed !important;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
     z-index: 5;
@@ -1456,12 +1456,18 @@ p, a {
     line-height: 150%;
 }
 
+.swiper-slide:last-child .front img:first-child {
+    width: auto;
+    height: inherit;
+}
+
 /*faq*/
 
 .faq-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .faq {
@@ -1560,6 +1566,7 @@ h1 {
 .footer {
     margin-top: 100px;
     padding-bottom: 100px;
+    z-index: 1;
 }
 
 .footer-container {
