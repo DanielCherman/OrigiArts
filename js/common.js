@@ -215,9 +215,9 @@ var x = setInterval(function() {
       var a = document.getElementById('link1'); 
       var b = document.getElementById('link2');
       var c = document.getElementById('link3');
-      a.href = "https://opensea.io/OrigiArts"
-      b.href = "https://opensea.io/OrigiArts"
-      c.href = "https://opensea.io/OrigiArts"
+      a.href = "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/101113052999600074651546829858941079950410643488644657006676200002938698989569/"
+      b.href = "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/101113052999600074651546829858941079950410643488644657006676200001839187361793/"
+      c.href = "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/101113052999600074651546829858941079950410643488644657006676200004038210617345/"
 
       $('.collection-photo').addClass('show-collection')
 
